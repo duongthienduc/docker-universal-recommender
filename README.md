@@ -7,6 +7,7 @@ The PredictionIO version is 0.12.1.
 ### How to Start
 ```bash
  git clone https://github.com/nateetorn/docker-universal-recommender.git
+ cd ./docker-universal-recommender
  docker build -t predictionio .
  docker run -p 8000:8000 --name predictionio_instance -it predictionio /bin/bash
 ```
