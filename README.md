@@ -6,8 +6,9 @@ The PredictionIO version is 0.12.1.
 
 ### How to Start
 ```bash
- docker pull nateetorn/predictionio-ur:0.1
- docker run -d -ti -p 8000:8000 nateetorn/predictionio-ur:0.1
+ git clone https://github.com/nateetorn/docker-universal-recommender.git
+ docker build -t predictionio .
+ docker run -p 8000:8000 --name predictionio_instance -it predictionio /bin/bash
 ```
 Then in docker container, start all services and check they are started
 ```bash
