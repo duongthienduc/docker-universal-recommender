@@ -26,4 +26,4 @@ Test Universal Recommender are working
 ### Thanks
 
  * [docker-predictionio](https://github.com/shimamoto/docker-predictionio) Dockerfile for PIO
- * [docker-ur](https://github.com/zephrax/docker-prediction.io) Dockerfile for UR
+ * [docker-ur](https://github.com/zephrax/docker-prediction.io-universal-recommender) Dockerfile for UR
